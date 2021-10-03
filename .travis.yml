@@ -10,7 +10,9 @@ git:
 script:
   - yarn test
 notifications:
-  slack: claseslaboratoria:fPmbi82fDSRE3avWKiwEtaKq
+  slack:
+    secure:
+      "Ti/qFuk+/xwc1yfotpTPrJ95mM7htWcJ+Rac2LZSThOsPpiont0E5Pn56rZO9jDsl0qKMRqf33pgY6jx9uzXScNM5Oayu7FXRRhdf7ZeFZNH6SPx5FwgkHUhhReKWJBIY40bKUFBelBAt7lQb1IV5FUhvzGhPIlF2X5IgvgThSra8bAL/4+4XIVJTdqcaSeTZdzEHWyaTqBVm34k7V1GAGKPKUrwOh35Ru7yIF36euBEquDEBiU1L2VhhnQwwgiYljmsQg1H2PJuSpa0UMIqr2NEb9o2MGaILY8AXxjdKQirtGrQ7NdwfLPLhxZdmJ9tM+6WtxhXkfYzSdyaNgHyB7HbxBuk+LXfWtFci/q101hJixTE+koKtearrO1pE+OrV88VnFk7FeyVH6dxhhmELmKk9B7DWvasIom3C5A23imzT0G1CIb6aq3AY2N7FeiXCRwwuCln1fFSs7IH/4PlsHbqnlWVD/uHpqdALYXpbj+lt6Sv15/PBiIOCoAVyWX32TnbwPwgBmJDRA1H8dQDDGN6iLk6X44EZ0oTxrqIQeuxTiQNs1deo4+b0eKEg6pCYelR894VjXxsCiJVkj/y8Ig80BAtqX5DXpbEEshNtI7zNN+pYCxAGo34ZniTaj6CM4KRwov12h0YMLd/Azt+XIr63h7ureGVjEpMy5N61jw="
   email:
     recipients:
       - mirichi5597@hotmail.com
@@ -21,7 +23,9 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: bd815a6f-bc3e-432e-a4d5-eca90dbaefc3
+  api_key:
+    secure:
+      "cFRY+dw6akR/QkOIksvbXHdSBGnM2GSmpb1+oxar2vcU0s/LGgfvLsOyz3+fS1n0YCo9L3Pj0WvQyDuXTBiOHbWjXYB7b9KstMa2LIuP3hm8248uv/hn/vrqnrqDxU/IAl4pbnqTRwKxhg9WjoMAvFucdkdkFAlY13sLUTbaIExN2MLnRQLkQ710Ec8yLGyG2K72aFAvqf0uRCSJvrn5ti1piEXvTsIkySW5vttw/BZNr8Dsh8RJwRjfyMeumUkyHowYh2EalaDGgB52aUEggH2e8xvPcAHaX6qZT5PfsmTHh53gIBqbF66ZySoyHzZEspy4e/AGMnqFYKV7uTPT0zaW7vBlwAHs+Z3If42dcJGOr+NJPhJq8alRzanNZqvBUM9UpS7gq0RUQac/6mkvaE0a7V+C9aoTAfhsESDEPKlo8/cG+jZlMBRGxC+XwTzZITph+gGZy6h1EnzvfsRQ4iSiTtcPn9Vxerr1ay5oSy/Q1+vGRNi3d5kCjVUZOJwfIZR4lp1f7PUeTFg6y0U6LU7FqJvw9zJ+z6J4/UP+QXXBW0rWo0zYP6FBd4WG0RPgl9+wLrC4fHcYckFto3j4Ck5EHthaDKv/An203FWF52VBazfLJgXcifUiES6hOdwKQbHnoX/F3gQFxLcbp5+DWGgOdwdv66cnmToPqkX9kc8="
   app: platzi-store-backend-mnm
   on:
     repo:  MiriamNM/platzi-store-backend
