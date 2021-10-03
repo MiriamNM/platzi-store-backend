@@ -21,7 +21,7 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: bd815a6f-bc3e-432e-a4d5-eca90dbaefc3 # desde heroku
+  api_key: bd815a6f-bc3e-432e-a4d5-eca90dbaefc3
   app: platzi-store-backend-nmn
   on:
     repo: MiriamNM/platzi-store-backend
