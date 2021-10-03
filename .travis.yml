@@ -24,4 +24,4 @@ deploy:
   api_key: bd815a6f-bc3e-432e-a4d5-eca90dbaefc3
   app: platzi-store-backend-mnm
   on:
-    repo: MiriamNM/platzi-store-backend
+    repo:  MiriamNM / platzi-store-backend
