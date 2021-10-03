@@ -1,0 +1,27 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  slack: claseslaboratoria:fPmbi82fDSRE3avWKiwEtaKq
+  email:
+    recipients:
+      - mirichi5597@hotmail.com
+      - miriamnavamucino@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: bd815a6f-bc3e-432e-a4d5-eca90dbaefc3 # desde heroku
+  app: platzi-store-backend-nmn
+  on:
+    repo: MiriamNM/platzi-store-backend
